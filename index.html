@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Nigeria</title>
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              planewhite: "#fbf8ee",
+              lightgreen: "#118160",
+              deepgreen: "#004f2f",
+              grayish: "#42474c",
+              deepgray: "#212326",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="scroll-smooth">
+    <div
+      class="w-full before:h-3 before:block before:bg-paytm after:h-3 after:block after:bg-navyblue"
+    ></div>
+    <div class="flex justify-center">
+      <h1 class="text-2xl"><a href="#"> This Page Is Designed For Learning Purpose</a></h1>
+    </div>
+    <div
+      class="w-full before:h-3 before:block before:bg-paytm after:h-3 after:block after:bg-navyblue"
+    ></div>
+    <!-- header -->
+    <header class="sticky top-0 z-[1000]">
+      <div class="max-w-400 mx-auto">
+        <nav
+          class="bg-planewhite relative w-full flex flex-wrap items-center clear-both h-[60px] lg:min-h-[80px] px-[5%] lg:px-[6%] md:px-[5.5%] transition-all ease-in-out duration-300"
+        >
+          <div class="mr-auto lg:mr-6">
+            <a
+              href="#"
+              class="block h-8 w-28 lg:h-9 lg:w-[25px] lg:mt-[-2px] cursor-pointer touch-manipulation text-lightgreen"
+            >
+              <img
+                src="./images/shopify-logo.svg"
+                alt="shopify-logo"
+                class="w-full h-full inline-block"
+              />
+            </a>
+          </div>
+          <ul class="hidden lg:flex mr-auto items-center">
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <div class="block cursor-pointer">
+                <button
+                  class="bg-transparent m-0 p-0 border-0 block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black rounded-none"
+                >
+                  Start
+                  <img
+                    src="./images/carret-down.svg"
+                    alt="caret"
+                    class="w-3 h-1.5 mt-[-3px] ml-[5px] inline-block"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <div class="block cursor-pointer">
+                <button
+                  class="bg-transparent m-0 p-0 border-0 block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black rounded-none"
+                >
+                  Sell
+                  <img
+                    src="./images/carret-down.svg"
+                    alt="caret"
+                    class="w-3 h-1.5 mt-[-3px] ml-[5px] inline-block"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <div class="block cursor-pointer">
+                <button
+                  class="bg-transparent m-0 p-0 border-0 block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black rounded-none"
+                >
+                  Market
+                  <img
+                    src="./images/carret-down.svg"
+                    alt="caret"
+                    class="w-3 h-1.5 mt-[-3px] ml-[5px] inline-block"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <div class="block cursor-pointer">
+                <button
+                  class="bg-transparent m-0 p-0 border-0 block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black rounded-none"
+                >
+                  Manage
+                  <img
+                    src="./images/carret-down.svg"
+                    alt="caret"
+                    class="w-3 h-1.5 mt-[-3px] ml-[5px] inline-block"
+                  />
+                </button>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="hidden lg:flex items-center">
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <a
+                href="#"
+                class="block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black"
+              >
+                Pricing
+              </a>
+            </li>
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <div class="block cursor-pointer">
+                <button
+                  class="bg-transparent m-0 p-0 border-0 block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black rounded-none"
+                >
+                  Learn
+                  <img
+                    src="./images/carret-down.svg"
+                    alt="caret"
+                    class="w-3 h-1.5 mt-[-3px] ml-[5px] inline-block"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <a
+                href="#"
+                class="block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black"
+              >
+                Log in
+              </a>
+            </li>
+            <li>
+              <button
+                class="bg-lightgreen text-white font-medium border-solid border-[1px] inline-block rounded text-center transition-all duration-150 py-[10px] px-[19px] ml-[15px] hover:bg-deepgreen text-base touch-manipulation"
+              >
+                Start for free
+              </button>
+            </li>
+          </ul>
+
+          <ul class="flex lg:hidden items-center">
+            <li class="md:leading-[60px] lg:leading-[80px]">
+              <a
+                href="#"
+                class="block font-medium text-[17px] mx-[15px] md:h-[60px] lg:h-[80px] text-[#42474c] hover:text-black"
+              >
+                Log in
+              </a>
+            </li>
+          </ul>
+
+          <img
+            src="./images/menu-icon.svg"
+            alt="menu"
+            class="flex lg:hidden items-center h-5 w-5 cursor-pointer"
+          />
+        </nav>
+      </div>
+    </header>
+
+    
+    <div>
+      
+      <main class="flow-root mx-auto relative">
+        
+        <section
+          class="relative bg-planewhite overflow-hidden px-0 py-16 md:py-24"
+        >
+          <div
+            class="lg:min-h-[400px] flex flex-wrap items-center my-0 px-[5%]"
+          >
+            <div
+              class="float-left block relative w-full px-1 lg:pl-[18px] lg:pr-20 lg:w-1/2 md:max-w-[65%]"
+            >
+              <div class="text-left mb-0">
+                <h1
+                  class="text-deepgreen font-bold tracking-[-1.35px] text-[32px] lg:text-[48px] leading-[44px] lg:leading-[66px] mb-8 max-w-[574px]"
+                >
+                  Build an online business—no matter what business you’re in
+                </h1>
+              </div>
+
+              <div>
+                <form class="md:text-center">
+                  <div class="mb-[15px] md:mb-0 text-left relative block">
+                    <div class="flex flex-wrap mx-[-8px]">
+                      <input
+                        type="text"
+                        placeholder="Enter your email address"
+                        class="input-shadow mb-2 mx-2 inline-block w-full py-[15px] px-4 text-[#212326] rounded bg-white border-[1px] border-solid border-transparent focus:outline-deepgreen min-w-[250px] basis-0 grow-[999]"
+                      />
+                      <button
+                        class="grow bg-lightgreen text-white font-medium border-solid border-[1px] inline-block rounded text-center transition-all duration-150 py-3 px-[29px] mb-2 mx-2 hover:bg-deepgreen text-base"
+                      >
+                        Start for free
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <p
+                  class="text-grayish text-left my-4 text-[12px] leading-normal"
+                >
+                  Try Shopify free for 3 days, no credit card required. By
+                  entering your email, you agree to receive marketing emails
+                  from Shopify.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="float-left block relative w-full px-1 lg:px-[18px] lg:w-1/2 h-[340px]"
+            >
+              <div>
+                <video
+                  src="./images/hero-vid.mp4"
+                  muted
+                  loop
+                  class="w-full md:ml-[80px]"
+                  poster="./images/hero-vid.jpg"
+                ></video>
+                <div
+                  class="flex items-center justify-center absolute right-[50px] md:bottom-[-10px] h-10 w-10 bg-white"
+                >
+                  <img src="./images/play.svg" alt="pause" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-[#014C3F] overflow-hidden px-0 py-16 md:py-20">
+          <div class="flow-root my-0 px-[5%]">
+            <div class="relative block w-full float-left px-1 lg:px-[18px]">
+              <section class="pt-0 pb-8 md:pb-12">
+                <div class="text-left mb-[45px] lg:mb-[60px]">
+                  <h2
+                    class="text-white font-normal text-[28px] lg:text-[40px] mb-[11px] lg:mb-[5px]"
+                  >
+                    Bring your business online
+                  </h2>
+                  <div class="px-0 mx-[-4px] lg:mx-[-18px] my-0 flow-root">
+                    <div
+                      class="w-full xl:w-4/4 px-1 lg:px-[18px] float-left block relative"
+                    >
+                      <p
+                        class="text-white font-normal text-base leading-normal mb-4"
+                      >
+                        Create an ecommerce website backed by powerful tools
+                        that help you find customers, drive sales, and manage
+                        your day-to-day.
+                      </p>
+                    </div>
+                    <div
+                      class="w-full xl:w-1/4 px-1 lg:px-[18px] float-left block relative"
+                    >
+                      <a
+                        href="#"
+                        class="group text-white font-bold leading-normal pr-[9px]"
+                      >
+                        Explore more examples &nbsp;
+                        <span
+                          class="absolute mt-[3.7px] group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                        >
+                          <img
+                            src="./images/right-arrow-white.svg"
+                            alt="arrow"
+                            class="h-[19px] w-[19px]"
+                          />
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 justify-items-start"
+                >
+                  <div class="block">
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <span
+                        class="w-full h-auto max-w-[267px] max-h-[472px] mb-4 box-content overflow-hidden block"
+                      >
+                        <span class="block w-full h-0 pb-[176.8%]">
+                          <img
+                            src="./images/food.png"
+                            alt="food"
+                            class="w-full block"
+                          />
+                        </span>
+                      </span>
+                      <a href="#" class="group flex flex-col md:mb-0">
+                        <p
+                          class="font-semibold text-white mb-[5px] text-sm tracking-[0.7px] uppercase group-hover:underline"
+                        >
+                          Food & Drink
+                        </p>
+                        <h3
+                          class="font-normal text-white text-base lg:text-lg block mb-2.5"
+                        >
+                          Alfred
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="block">
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <span
+                        class="w-full h-auto max-w-[267px] max-h-[472px] mb-4 box-content overflow-hidden block"
+                      >
+                        <span class="block w-full h-0 pb-[176.8%]">
+                          <img
+                            src="./images/jewelries.png"
+                            alt="jewelry"
+                            class="w-full block"
+                          />
+                        </span>
+                      </span>
+                      <a href="#" class="group flex flex-col md:mb-0">
+                        <p
+                          class="font-semibold text-white mb-[5px] text-sm tracking-[0.7px] uppercase group-hover:underline"
+                        >
+                          Jewelry
+                        </p>
+                        <h3
+                          class="font-normal text-white text-base lg:text-lg block mb-2.5"
+                        >
+                          Corey Moranis
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="block">
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <span
+                        class="w-full h-auto max-w-[267px] max-h-[472px] mb-4 box-content overflow-hidden block"
+                      >
+                        <span class="block w-full h-0 pb-[176.8%]">
+                          <img
+                            src="./images/drinks.png"
+                            alt="drinks"
+                            class="w-full block"
+                          />
+                        </span>
+                      </span>
+                      <a href="#" class="group flex flex-col md:mb-0">
+                        <p
+                          class="font-semibold text-white mb-[5px] text-sm tracking-[0.7px] uppercase group-hover:underline"
+                        >
+                          Food & Drink
+                        </p>
+                        <h3
+                          class="font-normal text-white text-base lg:text-lg block mb-2.5"
+                        >
+                          Detour Coffee
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="block md:hidden lg:block">
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <span
+                        class="w-full h-auto max-w-[267px] max-h-[472px] mb-4 box-content overflow-hidden block"
+                      >
+                        <span class="block w-full h-0 pb-[176.8%]">
+                          <img
+                            src="./images/beauty.png"
+                            alt="beauty"
+                            class="w-full block"
+                          />
+                        </span>
+                      </span>
+                      <a href="#" class="group flex flex-col md:mb-0">
+                        <p
+                          class="font-semibold text-white mb-[5px] text-sm tracking-[0.7px] uppercase group-hover:underline"
+                        >
+                          Beauty & Costume
+                        </p>
+                        <h3
+                          class="font-normal text-white text-base lg:text-lg block mb-2.5"
+                        >
+                          Then I Met You
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="hidden lg:block">
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <span
+                        class="w-full h-auto max-w-[267px] max-h-[472px] mb-4 box-content overflow-hidden block"
+                      >
+                        <span class="block w-full h-0 pb-[176.8%]">
+                          <img
+                            src="./images/home.png"
+                            alt="home"
+                            class="w-full block"
+                          />
+                        </span>
+                      </span>
+                      <a href="#" class="group flex flex-col md:mb-0">
+                        <p
+                          class="font-semibold text-white mb-[5px] text-sm tracking-[0.7px] uppercase group-hover:underline"
+                        >
+                          Home & Garden
+                        </p>
+                        <h3
+                          class="font-normal text-white text-base lg:text-lg block mb-2.5"
+                        >
+                          Miss Boon
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="pb-0 pt-8 md:pt-12">
+                <div class="text-left mb-[45px] lg:mb-[60px]">
+                  <h2
+                    class="text-white font-normal text-[24px] lg:text-[30px] mb-[13px] lg:mb-[9.5px]"
+                  >
+                    Take the best path forward
+                  </h2>
+                </div>
+
+                <div class="flow-root mx-[-4px] lg:mx-[-18px]">
+                  <div
+                    class="w-full md:w-1/2 lg:w-1/4 float-left px-1 lg:px-[18px] block"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <img
+                        src="./images/start-icon.png"
+                        alt="start"
+                        class="h-9 w-9 mb-4 inline-block"
+                      />
+                      <h3
+                        class="text-white font-medium text-base lg:text-lg mb-2.5"
+                      >
+                        Start an online business
+                      </h3>
+                      <p class="text-white text-base leading-normal">
+                        Create a business, whether you've got a fresh idea or
+                        are looking for a new way to make money.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full md:w-1/2 lg:w-1/4 float-left px-1 lg:px-[18px] block"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <img
+                        src="./images/move.png"
+                        alt="move"
+                        class="h-9 w-9 mb-4 inline-block"
+                      />
+                      <h3
+                        class="text-white font-medium text-base lg:text-lg mb-2.5"
+                      >
+                        Move your business online
+                      </h3>
+                      <p class="text-white text-base leading-normal">
+                        Turn your retail store into an online store and keep
+                        serving customers without missing a beat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full md:w-1/2 lg:w-1/4 float-left px-1 lg:px-[18px] block"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <img
+                        src="./images/switch.png"
+                        alt="switch"
+                        class="h-9 w-9 mb-4 inline-block"
+                      />
+                      <h3
+                        class="text-white font-medium text-base lg:text-lg mb-2.5"
+                      >
+                        Switch to Shopify
+                      </h3>
+                      <p class="text-white text-base leading-normal">
+                        Bring your business to Shopify, no matter which
+                        ecommerce platform you're currently using.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full md:w-1/2 lg:w-1/4 float-left px-1 lg:px-[18px] block"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <img
+                        src="./images/hire.png"
+                        alt="hire"
+                        class="h-9 w-9 mb-4 inline-block"
+                      />
+                      <h3
+                        class="text-white font-medium text-base lg:text-lg mb-2.5"
+                      >
+                        Hire a Shopify expert
+                      </h3>
+                      <p class="text-white text-base leading-normal">
+                        Get set up with the help of a trusted freelancer or
+                        agency from the Shopify Experts Marketplace.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="px-0 py-16 md:py-24">
+          <div class="flow-root my-0 px-[5%]">
+            <div
+              class="w-full md:w-[90%] lg:w-3/4 mt-0 mx-auto mb-[50px] md:mb-[90px] text-center"
+            >
+              <h2
+                class="font-normal text-deepgray text-[28px] lg:text-[40px] mb-[11px] lg:mb-[5px]"
+              >
+                With you wherever you're going
+              </h2>
+              <div class="mx-auto my-0 text-lg lg:text-xl max-w-[604px]">
+                <p class="mb-4">
+                  One platform with all the ecommerce and point of sale features
+                  you need to start, run, and grow your business.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col-reverse lg:flex-row lg:justify-center lg:max-w-[1215px] md:items-center mx-auto my-0"
+            >
+              <div
+                class="relative md:max-w-[1000px] md:mr-[-30px] mb-4 lg:mb-0"
+              >
+                <div>
+                  <video
+                    src="./images/sell-animation.mp4"
+                    autoplay
+                    muted
+                    loop
+                    class="w-full align-middle"
+                  ></video>
+                </div>
+              </div>
+
+              <div
+                class="md:max-w-[570px] mb-[45px] border-[#d2d5d9] lg:ml-[90px] lg:pr-[96px]"
+              >
+                <h3
+                  class="text-deepgray text-[24px] lg:text-[30px] mb-[13px] lg:mb-[9.5px]"
+                >
+                  Sell everywhere
+                </h3>
+                <div class="mb-4">
+                  <p class="leading-normal text-base">
+                    Use one platform to sell products to anyone, anywhere—in
+                    person with Point of Sale and online through your website,
+                    social media, and online marketplaces.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="group text-lightgreen md:text-lg font-medium leading-normal pr-[19px]"
+                >
+                  Explore ways to sell &nbsp;
+                  <span
+                    class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                  >
+                    <img
+                      src="./images/green-arrow.svg"
+                      alt="green-arrow"
+                      class="h-5 w-5"
+                    />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col lg:flex-row lg:justify-center lg:max-w-[1215px] md:items-center mx-auto mb-8"
+            >
+              <div
+                class="md:max-w-[570px] border-[#d2d5d9] mb-[45px] lg:ml-[90px]"
+              >
+                <h3
+                  class="text-deepgray text-[24px] lg:text-[30px] mb-[13px] lg:mb-[9.5px]"
+                >
+                  Market your business
+                </h3>
+                <p class="mb-4 leading-normal text-base">
+                  Take the guesswork out of marketing with built-in tools that
+                  help you create, execute, and analyze digital marketing
+                  campaigns.
+                </p>
+                <a
+                  href="#"
+                  class="group text-lightgreen md:text-lg font-medium leading-normal pr-[19px]"
+                >
+                  Explore how to market your business &nbsp;
+                  <span
+                    class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                  >
+                    <img
+                      src="./images/green-arrow.svg"
+                      alt="arrow"
+                      class="h-5 w-5"
+                    />
+                  </span>
+                </a>
+              </div>
+              <span
+                class="block max-w-[681px] max-h-[547px] w-full m-auto overflow-hidden h-auto box-content mb-4 lg:mb-0"
+              >
+                <span class="h-0 w-full block pb-[80.3%]">
+                  <img
+                    src="./images/small.png"
+                    alt="small"
+                    class="w-full align-middle"
+                  />
+                </span>
+              </span>
+            </div>
+
+            <div
+              class="flex flex-col-reverse lg:flex-row lg:justify-center lg:max-w-[1215px] md:items-center mx-auto mb-8"
+            >
+              <div class="w-full pointer-events-none">
+                <div
+                  class="w-full lg:max-w-[660px] mx-auto lg:mr-0 mb-4 lg:mb-0"
+                >
+                  <img
+                    src="./images/dashboard.png"
+                    alt="dashboard"
+                    class="w-full"
+                  />
+                </div>
+              </div>
+              <div
+                class="lg:mt-16 lg:ml-[90px] mb-[45px] lg:pr-24 md:max-w-[570px] border-[#d2d5d9]"
+              >
+                <h3
+                  class="text-deepgray text-[24px] lg:text-[30px] mb-[13px] lg:mb-[9.5px]"
+                >
+                  Manage everything
+                </h3>
+                <p class="mb-4 leading-normal text-base">
+                  Gain the insights you need to grow—use a single dashboard to
+                  manage orders, shipping, and payments anywhere you go.
+                </p>
+                <a
+                  href="#"
+                  class="group text-lightgreen md:text-lg font-medium leading-normal pr-[19px]"
+                >
+                  Explore how to manage your business &nbsp;
+                  <span
+                    class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                  >
+                    <img
+                      src="./images/green-arrow.svg"
+                      alt="arrow"
+                      class="h-5 w-5"
+                    />
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="px-0 py-8 md:py-12">
+          <div class="flow-root my-0 mx-auto px-[5%] max-w-[1415px]">
+            <div
+              class="relative w-full block float-left px-1 lg:px-[18px] z-[1] max-w-[750px]"
+            >
+              <div class="text-left mb-[100px] lg:mb-[60px]">
+                <h2 class="text-deepgray text-2xl lg:text-[30px] mb-8">
+                  Empowering independent business owners everywhere
+                </h2>
+                <p class="text-deepgray mb-8 text-xl lg:text-2xl">
+                  Millions of businesses in
+                  <strong>175 countries</strong> around the world have made over
+                  <strong>$496 billion USD</strong> in sales using Shopify.
+                </p>
+                <a
+                  href="#"
+                  class="group text-lightgreen md:text-lg font-medium leading-normal pr-[19px]"
+                >
+                  Learn more about Shopify &nbsp;
+                  <span
+                    class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                  >
+                    <img
+                      src="./images/green-arrow.svg"
+                      alt="green-arrow"
+                      class="h-5 w-5"
+                    />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="relative w-full block float-left px-1 lg:px-[18px]">
+              <div class="mt-[-20%] md:mt-[-2%] mb-[-10%]">
+                <img
+                  src="./images/map.jpg"
+                  alt="shopy-globe"
+                  class="h-auto max-w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="px-0 py-16 md:py-24">
+          <div class="flow-root my-0 px-[5%]">
+            <div class="w-full px-1 lg:px-[18px] float-left block relative">
+              <div>
+                <div class="relative flex pt-[300px] md:pt-0 md:pl-[50%]">
+                  <div
+                    class="bg-[#fafafa] absolute overflow-hidden top-0 left-0 w-full h-[300px] md:h-full md:w-1/2"
+                  >
+                    <img
+                      src="./images/cee-cee.jpg"
+                      alt="girl"
+                      class="w-full h-full"
+                    />
+                  </div>
+
+                  <div
+                    class="text-center text-white bg-[#002e25] py-10 md:py-16 px-8 lg:mt-0 lg:flex lg:flex-col lg:justify-center lg:min-h-[575px]"
+                  >
+                    <blockquote
+                      class="mb-8 mx-auto mt-0 lg:grow lg:flex lg:flex-col lg:w-3/4"
+                    >
+                      <p
+                        class="leading-normal w-full mb-[35px] md:mb-[60px] font-normal text-[20px] lg:text-[30px] lg:grow lg:flex lg:items-center"
+                      >
+                        “We’ve been able to build something in 3 years that a
+                        lot of brands haven’t actually gotten to in 10 years.”
+                      </p>
+                      <span
+                        class="max-h-[70px] max-w-[145px] m-auto mb-8 w-full h-auto block overflow-hidden box-content relative"
+                      >
+                        <span class="pb-[48.28%] h-0 w-full block">
+                          <img
+                            src="./images/ceecee-log.png"
+                            alt="alicia"
+                            class="block max-w-full align-middle object-cover"
+                          />
+                        </span>
+                      </span>
+                      <cite
+                        class="block font-medium not-italic text-[15px] lg:text-[20px]"
+                      >
+                        Chioma | Cee Cee's Closet Closet NYC
+                      </cite>
+                    </blockquote>
+                    <button
+                      class="bg-#112E25 text-white font-medium border-solid border-[1px] inline-block rounded text-center transition-all duration-150 py-[10px] px-[19px] ml-[15px] hover:bg-white hover:text-black text-base touch-manipulation"
+                    >
+                      Play Chioma and Uchenna's story
+                    </button>
+                  </div>
+                </div>
+
+                <ul
+                  class="pt-8 md:pt-16 flex flex-wrap items-center justify-evenly w-full mb-[-32px]"
+                >
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/ceecee-dark.png"
+                      alt="cee-cee"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/natala.png"
+                      alt="nalata"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/kiri.png"
+                      alt="kirrin"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/tokyobike.jpg"
+                      alt="tokyobike"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/meso.jpg"
+                      alt="meso"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/coco.jpg"
+                      alt="coco"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/museum.jpg"
+                      alt="museum"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+                  <li
+                    class="w-1/4 mb-8 mx-4 lg:w-[3.125em] grow shrink-0 lg:shrink basis-1/4 lg:basis-[3.125em]"
+                  >
+                    <img
+                      src="./images/adore.jpg"
+                      alt="museum"
+                      class="mx-auto block h-auto max-w-full"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-planewhite px-0 pb-0 py-16 md:py-24 relative">
+          <div class="flow-root my-0 px-[5%]">
+            <div
+              class="w-full md:w-2/3 lg:w-1/2 px-1 lg:px-[18px] float-left block relative"
+            >
+              <div class="md:pr-8">
+                <div class="text-left mb-[45px] lg:mb-[60px]">
+                  <h2
+                    class="font-normal text-deepgray text-[28px] lg:text-[40px] mb-2.5 lg:mb-3 max-w-[453px]"
+                  >
+                    Get the help you need, every step of the way
+                  </h2>
+                </div>
+                <div class="my-0 px-0 flex flex-wrap mx-[-4px] lg:mx-[-18px]">
+                  <div
+                    class="w-full md:w-1/2 float-left block relative px-1 lg:px-[18px]"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <h3
+                        class="text-deepgray text-base lg:text-lg mb-2.5 lg:mb-3"
+                      >
+                        Shopify support
+                      </h3>
+                      <p class="mb-4">
+                        Contact support 24/7, whether you're troubleshooting
+                        issues or looking for business advice.
+                      </p>
+                      <p class="mb-0">
+                        <a
+                          href="#"
+                          class="group text-lightgreen text-base font-medium leading-normal pr-4"
+                        >
+                          Contact support&nbsp;
+                          <span
+                            class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                          >
+                            <img
+                              src="./images/green-arrow.svg"
+                              alt="green-arrow"
+                              class="h-5 w-5"
+                            />
+                          </span>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full md:w-1/2 float-left block relative px-1 lg:px-[18px]"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px]">
+                      <h3
+                        class="text-deepgray text-base lg:text-lg mb-2.5 lg:mb-3"
+                      >
+                        Shopify App Store
+                      </h3>
+                      <p class="mb-4">
+                        Add features and functionality to your business with
+                        6,000+ apps that integrate directly with Shopify.
+                      </p>
+                      <p class="mb-0">
+                        <a
+                          href="#"
+                          class="group text-lightgreen text-base font-medium leading-normal pr-4"
+                        >
+                          Visit the Shopify App Store&nbsp;
+                          <span
+                            class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                          >
+                            <img
+                              src="./images/green-arrow.svg"
+                              alt="green-arrow"
+                              class="h-5 w-5"
+                            />
+                          </span>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full md:w-1/2 float-left block relative px-1 lg:px-[18px]"
+                  >
+                    <div class="block border-[#d2d5d9] mb-[45px] md:mb-0">
+                      <h3
+                        class="text-deepgray text-base lg:text-lg mb-2.5 lg:mb-3"
+                      >
+                        Shopify Experts Marketplace
+                      </h3>
+                      <p class="mb-4">
+                        Hire a Shopify expert to help you with everything from
+                        store setup to SEO.
+                      </p>
+                      <p class="mb-0 md:w-[150%]">
+                        <a
+                          href="#"
+                          class="group text-lightgreen text-base font-medium leading-normal pr-[19px]"
+                        >
+                          Explore the Shopify Experts Marketplace&nbsp;
+                          <span
+                            class="absolute mt-1 group-hover:transition-transform group-hover:duration-300 group-hover:translate-x-1"
+                          >
+                            <img
+                              src="./images/green-arrow.svg"
+                              alt="green-arrow"
+                              class="h-5 w-5 max-w-none"
+                            />
+                          </span>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <picture
+            class="block h-full w-full md:absolute md:top-0 md:right-0 md:bottom-0 md:w-1/3 lg:w-1/2"
+          >
+            <img
+              src="./images/help-desk.png"
+              alt="help desktop"
+              class="max-w-full w-full h-full object-cover block"
+            />
+          </picture>
+        </section>
+
+        <section class="px-0 py-16 md:py-24">
+          <div class="flow-root my-0 px-[5%]">
+            <div class="w-full px-1 lg:px-[18px] float-left block relative">
+              <div class="text-center mx-auto max-w-[770px]">
+                <h2 class="text-deepgray text-2xl lg:text-3xl mb-4">
+                  Start your business journey with Shopify
+                </h2>
+                <p class="text-base lg:text-lg mb-3">
+                  Try Shopify for free, and explore all the tools and services
+                  you need to start, run, and grow your business.
+                </p>
+                <form>
+                  <button
+                    class="grow bg-lightgreen text-white font-medium border-solid border-[1px] inline-block rounded text-center transition-all duration-150 py-3 px-[29px] mt-4 mb-2 mx-2 hover:bg-deepgreen text-base"
+                  >
+                    Start free trial
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  to top button -->
+        <div class="flow-root my-0 px-[5%]">
+          <div
+            class="w-full px-1 lg:px-[18px] float-left block relative text-center md:text-right mb-8"
+          >
+            <a
+              href="#"
+              class="group text-lightgreen text-lg font-semibold leading-normal pr-5 scroll-smooth"
+            >
+              Back to top&nbsp;
+              <span
+                class="absolute mt-1 rotate-[-90deg] group-hover:transition-transform group-hover:duration-300 group-hover:translate-y-[-0.25rem]"
+              >
+                <img
+                  src="./images/green-arrow.svg"
+                  alt="arrow"
+                  class="h-[21.6px] w-[21.6px]"
+                />
+              </span>
+            </a>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="relative flow-root mx-auto bg-[#002e25]">
+        <div class="pb-[25px] pt-[25px] md:pt-0">
+          <div class="flow-root my-0 px-[5%]">
+            <div class="w-full float-left relative block px-1 lg:px-[18px]">
+              <nav
+                class="top-footer-line mb-[25px] pb-[25px] md:pb-0 text-center md:text-left"
+              >
+                <ul class="inline-block">
+                  <li class="inline-block group">
+                    <a
+                      href="#"
+                      class="text-white text-base font-medium md:leading-[70px] mx-2 md:ml-0 md:mr-4 mt-[5px] md:mt-0"
+                    >
+                      About
+                    </a>
+                    <div
+                      class="mx-2 mt-2 duration-300 border-b-2 opacity-0 border-white group-hover:opacity-100"
+                    ></div>
+                  </li>
+                  <li class="inline-block group">
+                    <a
+                      href="#"
+                      class="text-white text-base font-medium md:leading-[70px] mx-2 md:ml-0 md:mr-4 mt-[5px] md:mt-0"
+                    >
+                      Careers
+                    </a>
+                    <div
+                      class="mx-2 mt-2 duration-300 border-b-2 opacity-0 border-white group-hover:opacity-100"
+                    ></div>
+                  </li>
+                  <li class="inline-block group">
+                    <a
+                      href="#"
+                      class="text-white text-base font-medium md:leading-[70px] mx-2 md:ml-0 md:mr-4 mt-[5px] md:mt-0"
+                    >
+                      Press and Media
+                    </a>
+
+                    <div
+                      class="mx-2 mt-2 duration-300 border-b-2 opacity-0 border-white group-hover:opacity-100"
+                    ></div>
+                  </li>
+                  <li class="inline-block group">
+                    <a
+                      href="#"
+                      class="text-white text-base font-medium md:leading-[70px] mx-2 md:ml-0 md:mr-4 mt-[5px] md:mt-0"
+                    >
+                      Shopify Plus
+                    </a>
+
+                    <div
+                      class="mx-2 mt-2 duration-300 border-b-2 opacity-0 border-white group-hover:opacity-100"
+                    ></div>
+                  </li>
+                  <li class="inline-block group">
+                    <a
+                      href="#"
+                      class="text-white text-base font-medium md:leading-[70px] mx-2 md:ml-0 md:mr-4 mt-[5px] md:mt-0"
+                    >
+                      Sitemap
+                    </a>
+
+                    <div
+                      class="mx-2 mt-2 duration-300 border-b-2 opacity-0 border-white group-hover:opacity-100"
+                    ></div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="w-1/2 float-left relative block px-1 lg:px-[18px]">
+              <h3
+                class="text-white uppercase font-semibold text-sm mb-[8.75px]"
+              >
+                Online store
+              </h3>
+              <div class="md:columns-3 mb-8 md:mb-0">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Sell online
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Examples
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Website builder
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Online retail
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Ecommerce website
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Domain names
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Shopping cart
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Ecommerce hosting
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Mobile commerce
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Online store builder
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Dropshipping Business
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Store themes
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="w-1/2 md:w-1/6 float-left relative block px-1 lg:px-[18px]"
+            >
+              <h3
+                class="text-white uppercase font-semibold text-sm mb-[8.75px]"
+              >
+                Point of sale
+              </h3>
+              <div class="mb-8 md:mb-0">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Point of sale
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Features
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="w-1/2 md:w-1/6 float-left relative block px-1 lg:px-[18px]"
+            >
+              <h3
+                class="text-white uppercase font-semibold text-sm mb-[8.75px]"
+              >
+                Support
+              </h3>
+              <div class="mb-8 md:mb-0">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      24/7 support
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Shopify Help Center
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Shopify Community
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      API documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Free tools
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Free stock photos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Websites for sale
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Logo Maker
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Business name generator
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Research
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Legal
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="w-1/2 md:w-1/6 float-left relative block px-1 lg:px-[18px] mt-2 md:mt-0"
+            >
+              <h3
+                class="text-white uppercase font-semibold text-sm mb-[8.75px]"
+              >
+                Shopify
+              </h3>
+              <div class="mb-8 md:mb-0">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Partner program
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Affiliate program
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      App developers
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Investors
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Blog topics
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#b6babf] text-sm block py-[5.25px] md:break-inside-avoid hover:text-white hover:duration-300 hover:transition-colors"
+                    >
+                      Community Events
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer-line py-8 flow-root">
+          <div class="flex flex-wrap items-center my-0 px-[5%]">
+            <div
+              class="w-full md:w-1/3 block relative float-left px-1 lg:px-[18px]"
+            >
+              <ul class="inline-block md:ml-[-11px] flex items-center">
+                <li class="inline-block mr-2">
+                  <a href="#" class="text-[#b6babf] flex p-[11px]">
+                    <img
+                      src="./images/facebook-brands.svg"
+                      alt="facebook"
+                      class="h-6 w-6"
+                    />
+                  </a>
+                </li>
+                <li class="inline-block p-[7px] mr-2">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] flex p-[4px] rounded-full bg-white"
+                  >
+                    <img
+                      src="./images/twitter-brands.svg"
+                      alt="twitter"
+                      class="h-4 w-4"
+                    />
+                  </a>
+                </li>
+                <li class="inline-block p-[7px] mr-2">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] flex p-[4px] rounded-full bg-white"
+                  >
+                    <img
+                      src="./images/youtube-brands.svg"
+                      alt="youtube"
+                      class="h-4 w-4"
+                    />
+                  </a>
+                </li>
+                <li class="inline-block p-[7px] mr-2">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] flex p-[4px] rounded-full bg-white"
+                  >
+                    <img
+                      src="./images/instagram-brands.svg"
+                      alt="instagram"
+                      class="h-4 w-4"
+                    />
+                  </a>
+                </li>
+                <li class="inline-block p-[7px] mr-2">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] flex p-[4px] rounded-full bg-white"
+                  >
+                    <img
+                      src="./images/linkedin-in-brands.svg"
+                      alt="linkedin"
+                      class="h-4 w-4"
+                    />
+                  </a>
+                </li>
+                <li class="inline-block">
+                  <a href="#" class="text-[#b6babf] flex p-[11px]">
+                    <img
+                      src="./images/pinterest-brands.svg"
+                      alt="pinterest"
+                      class="h-6 w-6"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full float-left block relative md:px-1 lg:px-[18px] md:w-2/3 md:text-right"
+            >
+              <ul class="inline-block">
+                <li class="inline-block">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] hover:text-white hover:duration-300 hover:transition-colors"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+                <li class="inline-block ml-[3px] md:ml-2">
+                  <a
+                    href="#"
+                    class="text-[#b6babf] hover:text-white hover:duration-300 hover:transition-colors"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+              <div class="w-auto inline-block relative mb-0 leading-8 md:ml-4">
+                <button
+                  class="text-white m-0 p-0 border-0 inline-block min-h-[44px] min-w-[44px]"
+                >
+                  <img
+                    src="./images/globe-solid.svg"
+                    alt="globe"
+                    class="inline-block mb-[3px] h-4 w-4"
+                  />
+                  <span class="md:px-1">Nigeria</span>
+                  <img
+                    src="./images/down-carret.svg"
+                    alt="down-caret"
+                    class="inline-block mb-[3px] h-4 w-4"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="flex justify-center">
+        <h3> <a href=""> Clone Designed By Drew</a> </h3>
+    </div>
+  </body>
+</html>
